@@ -1,16 +1,25 @@
-# myapp
+# Cadastro de Planetas
 
-A new Flutter project.
+## Descrição
+O **Cadastro de Planetas** é um aplicativo Android desenvolvido em **Flutter** que permite gerenciar informações sobre planetas. O app possibilita o cadastro, edição e exclusão de planetas, armazenando os dados localmente utilizando **SQLite**.
 
-## Getting Started
+## Funcionalidades
+- Adicionar novos planetas com informações detalhadas
+- Editar dados de planetas cadastrados
+- Excluir planetas
+- Listar todos os planetas cadastrados
 
-This project is a starting point for a Flutter application.
+## Tecnologias Utilizadas
+- **Linguagem**: Dart (com Flutter)
+- **Banco de Dados**: SQLite
+- **Gerenciamento de Estado**: (Definir a abordagem utilizada, como Provider, Riverpod, Bloc, etc.)
 
-A few resources to get you started if this is your first Flutter project:
+## Estrutura do Projeto
+O projeto está organizado nas seguintes pastas:
+- `controle_planeta/` - Controles e lógica de negócio
+- `tela_planeta/` - Telas e interfaces do usuário
+- `planeta/` - Modelos e estruturas de dados
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Licença
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
